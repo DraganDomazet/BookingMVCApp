@@ -1,0 +1,125 @@
+﻿
+@{
+    Layout = null;
+}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-image:url(https://r-cf.bstatic.com/images/hotel/max1024x768/119/119673250.jpg); height: 100%; background-position:center; background-repeat: no-repeat; background-size: cover">
+    <form action="/Host/AddApp" method="post">
+        <table border="0" style="background-color:transparent" class="w3-text-white w3-display-left w3-large">            
+            <tr>
+                <td>
+                    Name of apartment
+                </td>
+                <td>
+                    <input type="text" name="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Type
+                </td>
+                <td>
+                    <select name="Type">
+                        <option value="Apartment">
+                            Apartment
+                        </option>
+                        <option value="Room">
+                            Room
+                        </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Room Number
+                </td>
+                <td>
+                    <input type="number" name="RoomNumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Guest Number
+                </td>
+                <td>
+                    <input type="number" name="GuestNumber">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    X coordinate
+                </td>
+                <td>
+                    <input type="number" name="X">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Y coordinate
+                </td>
+                <td>
+                    <input type="number" name="Y">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Street
+                </td>
+                <td>
+                    <input type="text" name="Street">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number
+                </td>
+                <td>
+                    <input type="number" name="Number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    City
+                </td>
+                <td>
+                    <input type="text" name="City">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip code
+                </td>
+                <td>
+                    <input type="number" name="Zip">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Price per night
+                </td>
+                <td>
+                    <input type="number" name="Price">
+                </td>
+            </tr>
+            
+            @*<tr>
+                <td>
+                    Choose pictures
+                </td>
+                <td>
+                    <input type="file" name="Picture" multiple="multiple" />
+                </td>
+            </tr>*@            
+                   
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name = "Submit" id="Submit" value="Add Apartment" style="background-color:transparent; border:none" class="w3-text-blue w3-hover-aqua" />
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>

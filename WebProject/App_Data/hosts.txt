@@ -1,0 +1,2 @@
+domacin;domacin;Prvi;Drug;Male;Guest
+dom2;dom2;Bojan;Bojanic;Male;Host

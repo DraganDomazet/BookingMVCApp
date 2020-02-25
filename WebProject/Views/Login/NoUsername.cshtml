@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body style="background-image:url(https://r-cf.bstatic.com/images/hotel/max1024x768/119/119673250.jpg); height: 100%; background-position:center; background-repeat: no-repeat; background-size: cover">
+    <form action="/Login/Login" method="post">
+        <table border="0" style="background-color:transparent" class="w3-text-blue w3-display-topright w3-large">
+            <tr>
+                <td>
+                    Username:
+                </td>
+                <td>
+                    <input type="text" name=username>
+                </td>
+
+                <td>
+                    Lozinka
+                </td>
+                <td>
+                    <input type="password" name=password>
+                </td>
+
+                <td>
+                    <input type="submit" value="Log In" style="background-color:transparent; border:none" class="w3-text-blue w3-hover-aqua" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="w3-text-red w3-center">Username does not exist!</td>
+            </tr>
+        </table>
+    </form>    
+</body>
